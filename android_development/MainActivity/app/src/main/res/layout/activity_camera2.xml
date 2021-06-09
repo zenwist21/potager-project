@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".camera.CameraActivity2">
+    <ImageView
+        android:id="@+id/image_preview"
+        android:adjustViewBounds="true"
+        android:layout_above="@id/linear_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linear_btn"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/btnCamera2"
+            android:layout_width="138dp"
+            android:layout_height="76dp"
+            android:backgroundTint="@color/black"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_radio_on_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/btnGallery2"
+            android:layout_width="81dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="44dp"
+            android:backgroundTint="@color/black"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_photo_library_24"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toStartOf="@+id/btnCamera"
+            app:layout_constraintHorizontal_bias="0.836"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnCamera2" />
+
+        <ImageButton
+            android:id="@+id/btnAnalyze"
+            android:layout_width="81dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="272dp"
+            android:backgroundTint="@color/black"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_analyze"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toStartOf="@+id/btnCamera"
+            app:layout_constraintHorizontal_bias="0.836"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnCamera2"
+            app:layout_constraintVertical_bias="0.529" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambil Foto"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btnCamera2"
+            app:layout_constraintStart_toStartOf="@+id/btnCamera2"
+            app:layout_constraintTop_toBottomOf="@+id/btnCamera2" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Identifikasi Penyakit"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btnAnalyze"
+            app:layout_constraintHorizontal_bias="0.409"
+            app:layout_constraintStart_toStartOf="@+id/btnAnalyze"
+            app:layout_constraintTop_toBottomOf="@+id/btnAnalyze"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

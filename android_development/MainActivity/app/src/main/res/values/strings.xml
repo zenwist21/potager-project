@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Catalog</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Akun">Akun</string>
+    <string name="Katalog">Catalog</string>
+    <string name="Beranda">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_profie">Akun</string>
+    <string name="Button_edit">Edit Profile</string>
+    <string name="nama">Rizky</string>
+    <string name="location">North , Sumatera Utara</string>
+    <string name="Share">Bagikan Aplikasi</string>
+    <string name="btn_search_text">Identifikasi Penyakit</string>
+    <string name="btn_tips_text">Tips Budidaya</string>
+    <string name="Buah">Cabe</string>
+    <string name="plant_name">Nama Tumbuhan</string>
+    <string name="text_disease">Kesamaan :</string>
+    <string name="disease_rate">98 %</string>
+    <string name="dummy_value">Ciri-ciri</string>
+    <string name="text_description1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed euismod tortor est, nec convallis velit sollicitudin eget.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+        Suspendisse accumsan quam vel leo mattis, at auctor diam finibus.
+        1. ivamus lobortis turpis sit amet eros finibus maximus.
+        2. Maecenas et lorem sit amet ipsum hendrerit aliquet ac at tellus
+        3. elementum felis at tortor pharetra, mollis finibus diam laoreet. Morbi interdum dictum diam.
+    </string>
+    <string name="content_text">Penanganan</string>
+    <string name="text_description2">Integer feugiat velit sit amet vulputate ultricies. Proin dapibus consequat erat, sit amet pretium ex porta at. Praesent semper a nulla nec efficitur. In sit amet ligula at lectus vestibulum volutpat. Sed accumsan felis ut augue tincidunt fermentum. In suscipit quis dui condimentum pulvinar</string>
+    <string name="NamaItem">Nama Item</string>
+    <string name="identifikasi">Identifikasi Penyakit
+
+    </string>
+    <string name="Tip">Tips Budidaya</string>
+    <string name="waktuPenanaman">Waktu</string>
+    <string name="title">Nama Tanaman</string>
+    <string name="waktu">--/--/--</string>
+    <string name="waktuTanam">Tanggal tanam</string>
+    <string name="perkiraanPanen">Tanggal perkiraan panen</string>
+    <string name="submit">Buat</string>
+    <string name="tv_1">Pilih Tanaman</string>
+    <string name="_2_minggu">2 Minggu</string>
+</resources>
